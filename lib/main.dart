@@ -32,6 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           title: Text("Digitendance"),
         ),
+        body: SafeArea(child: Stack()),
       ),
     );
   }
